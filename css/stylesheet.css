@@ -1,0 +1,701 @@
+.homebkg, .Landing{
+  margin:0;
+  height: 95vh;
+
+  background:                         /* width:100% height:20px;*/
+    linear-gradient(black,black) center /   100%          405px,
+    white;
+  background-repeat:no-repeat;
+}
+.allbkg, .About {
+  margin:0;
+  height: 95vh;
+
+  background:
+  linear-gradient(black, black) center /   100%           405px,
+  white;
+background-repeat:no-repeat;
+}
+.pbkg, .Portfolio, .Contact {
+  background-color: white;
+}
+body, p {
+  font-family: 'Fino Sans', sans-serif;
+}
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -55px; /* must be the same height as footer */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer,
+.page-wrap:after {
+  height: -55px; /* however tall you want the footer to be */
+} 
+.footer {
+  /*padding-left: 625px;*/
+  display:flex;
+  position: fixed;
+  float: center;
+  text-align: center;
+  padding-top: 5px;
+  width: 100%;
+}
+.navbar {
+  margin-left: 750px;
+  padding-top: 30px;
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  color: orange;
+}
+.navbar a {
+  display:inline;
+  margin-right: 50px;
+}
+.homebutton {
+  display:inline-block;
+  float:left;
+  margin-left: -700px;
+  color: #orange;
+}
+.LandingLogo {
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 355px;
+  margin-top: -450px;
+  margin-bottom: 100px;
+}
+.SuhmerGIF {
+  display:block;
+  margin-left: -5px;
+  width: 100%;
+  max-width: 355px;
+  margin-top: -503px;
+  margin-bottom: 100px;
+}
+.ExpansionTitle {
+  display: block;
+  justify-content: center;
+  margin-left: 480px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+}
+.ExpansionCaption {
+  display: block;
+  text-align: center;
+  font-family: "fira-sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.DIScontainer {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.DIScontainer, img {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px;
+}
+.DISSurvey {
+  display: block;
+  text-align: center;
+  font-family: "fira-sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SurveyCap {
+  display: flex;
+  margin-left: 100px;
+}
+.MaslowCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 175px;
+}
+.MaslowEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.MaslowSurvey {
+  display: block;
+  width: 400px;
+  margin-left: 700px;
+  margin-top: -350px;
+  margin-bottom: 75px;
+}
+.MaslowVideo{
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.LonelinessCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 40px;
+}
+.LonelinessEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: 40px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.LonelinessSurvey {
+  display: block;
+  width: 400px;
+  margin-left: 700px;
+  margin-top: -350px;
+  margin-bottom: 75px;
+}
+.LonelinessVideo{
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.DavidCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 170px;
+}
+.DavidEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.DavidSurvey {
+  display: block;
+  width: 400px;
+  margin-left: 700px;
+  margin-top: -350px;
+  margin-bottom: 75px;
+}
+.DavidVideo{
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.imagecontainer {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.imagecontainer, img {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px;
+}
+.FlamingoCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 175px;
+}
+.FlamingoEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: 50px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+.FlamingoVideo{
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  margin-left: 675px;
+  margin-top: -475px;
+  margin-bottom: 100px;
+}
+.WineCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 45px;
+}
+.WineEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: 50px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+.WineVideo{
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  margin-left: 675px;
+  margin-top: -475px;
+  margin-bottom: 100px;
+}
+.WomanCoffeeCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 175px;
+}
+.WomanCoffeeEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: 50px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+.WomanCoffeeVideo{
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  margin-left: 675px;
+  margin-top: -475px;
+  margin-bottom: 100px;
+}
+.imagecontainer2 {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagecontainer2, img {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px;
+}
+.DeanDoriCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 180px;
+}
+.DeanDoriEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: 50px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+.DeanDoriVideo{
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  margin-left: 675px;
+  margin-top: -475px;
+  margin-bottom: 100px;
+}
+.HighTreesCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 40px;
+}
+.HighTreesEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: 50px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+.HighTreesVideo{
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  margin-left: 675px;
+  margin-top: -475px;
+  margin-bottom: 100px;
+}
+.MarianCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 170px;
+}
+.MarianEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: 50px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+.MarianVideo{
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  margin-left: 675px;
+  margin-top: -550px;
+  margin-bottom: 100px;
+}
+.imagecontainer3 {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagecontainer3, img {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px;
+}
+.SpliffCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 150px;
+}
+.SpliffEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.SpliffProcess1 {
+  margin-left: 75px;
+}
+.SpliffProcess2 {
+  margin-left: 75px;
+}
+.SpliffProcess3 {
+  margin-left: 75px;
+}
+.GlobeCoffeeCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding-right: 45px;
+}
+.GlobeCoffeeEx {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.GlobeProcess1 {
+  margin-left: 75px;
+}
+.GlobeProcess2 {
+  margin-left: 250px;
+}
+.IgnoranceCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 70px;
+}
+.IgnoranceEx {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.IgnoranceProcess1 {
+  margin-left: 75px;
+}
+.IgnoranceProcess2 {
+  margin-left: 75px;
+}
+.IgnoranceProcess3 {
+  margin-left: 75px;
+}
+.imagecontainer4 {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagecontainer4, img {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px;
+}
+.MartiniCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 190px;
+}
+.MartiniEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: 50px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+.Martini1 {
+  display: block;
+  max-width: 230px;
+  margin-left: auto;
+  margin-right: 150px;
+  margin-top: -700px;
+}
+.Martini2 {
+  display: block;
+  max-width: 230px;
+  margin-left: auto;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+.RocketCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 30px;
+}
+.RocketEx {
+  display: block;
+  width: 100%;
+  max-width: 525px;
+  margin-right: auto;
+  margin-left: 50px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+.Rocket1 {
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  margin-left: 675px;
+  margin-top: -650px;
+  margin-bottom: 150px;
+}
+.CoronaCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 160px;
+}
+.CoronaEx {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.CoronaProcess1 {
+  margin-left: 75px;
+}
+.CoronaProcess2 {
+  margin-left: 75px;
+}
+.CoronaProcess3 {
+  margin-left: 390px;
+}
+.imagecontainer5 {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagecontainer5, img {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px;
+}
+.NeverHadCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 150px;
+}
+.NeverHadEx {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.NeverHadProcess1 {
+  margin-left: 75px;
+}
+.EverywhereCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 25px;
+}
+.EverywhereEx {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.EverywhereProcess1 {
+  margin-left: 75px;
+}
+.EverywhereProcess2 {
+  margin-left: 75px;
+}
+.EverywhereProcess3 {
+  margin-left: 390px;
+}
+.AcheCap {
+  font-family: "Fino Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 220px;
+}
+.AcheEx {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.AcheProcess1 {
+  margin-left: 75px;
+}
+.AcheProcess2 {
+  margin-left: 250px;
+}
+.copyright {
+  color: black;
+  text-align: center;
+  font-family: "Fino Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal
+}
+body {
+  font-family: "fira-sans-2", sans-serif;
+}
+.bioname {
+  text-align: center;
+}
+.bio{
+  font-family: "fira-sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+  display: block;
+  text-align: justify;
+  vertical-align: middle;
+  margin-left: 400px;
+  margin-top: -410px;
+  margin-bottom: 200px;
+  padding-right: 65px;
+}
+.ContactImage {
+  display: block;
+  width: 100%;
+  max-width: 550px;
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-bottom: 5px;
+  padding-right: 10px;
+}
+.ResumeFile{
+  font-family: "fira-sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  color:  white;
+  display: block;
+  margin-left: 625px;
+  margin-top: -175px;
+}
+.Instalink {
+  font-family: "fira-sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+  display: block;
+  margin-top: -26px;
+  margin-left: 725px;
+  padding-bottom: 80px;
+}
